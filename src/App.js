@@ -5,7 +5,7 @@ import ReactHover from 'react-hover'
 
 const optionsCursorTrueWithMargin = {
   followCursor: true,
-  shiftX: -200,
+  shiftX: 20,
   shiftY: 0
 }
 
