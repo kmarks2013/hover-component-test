@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import TrigerTile from './Components/TrigerTile';
+import TriggerTest from './Components/TriggerTest';
 import HoverTest from './Components/HoverTest';
 import ReactHover from 'react-hover'
 
 const optionsCursorTrueWithMargin = {
   followCursor: true,
-  shiftX: 20,
+  shiftX: -200,
   shiftY: 0
 }
 
@@ -16,7 +16,7 @@ export default class App extends Component {
       <div className="App">
       <ReactHover options={optionsCursorTrueWithMargin}>
       <ReactHover.Trigger type='trigger'>
-        <TrigerTile/>
+        <TriggerTest/>
       </ReactHover.Trigger>
       <ReactHover.Hover type='hover'>
         <HoverTest />

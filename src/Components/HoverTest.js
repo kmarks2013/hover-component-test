@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class HoverTest extends Component {
     render() {
         return (
-            <div className='hover'>
-                <p> the rest of this sentence!</p>
+            <div>
+                <p> This component only shows up when the cursor hovers over the trigger!</p>
             </div>
         )
     }
